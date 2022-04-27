@@ -34,6 +34,22 @@ npm install
 # For starting Frontend Server (React Server)
 npm start
 ```
+# To run using Docker setup 
+ docker compose up 
+ 
+ # To run tests in backend
+ npm test
+ 
+ # To generate report in backend
+ npm run test -report
+
+# Required API_KEYs/Secrets to start 
+  STRIPE_API_KEY="" // stripe api key for payment .env backend
+  HEROKU_API_KEY="" // ADD to github secrets for backend server github 
+  JWT_SECRET=""   // to create jwt tokens in .env backend
+  DB=""  // Database url in .env backend
+  
+  
 
 # Live website
 
