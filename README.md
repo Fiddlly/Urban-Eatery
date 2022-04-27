@@ -44,9 +44,9 @@ npm start
  npm run test -report
 
 # Required API_KEYs/Secrets to start 
-  STRIPE_API_KEY="" // stripe api key for payment .env backend
-  HEROKU_API_KEY="" // ADD to github secrets for backend server github 
-  JWT_SECRET=""   // to create jwt tokens in .env backend
+  STRIPE_API_KEY="" // stripe api key for payment .env backend,
+  HEROKU_API_KEY="" // ADD to github secrets for backend server github, 
+  JWT_SECRET=""   // to create jwt tokens in .env backend,
   DB=""  // Database url in .env backend
   
   
